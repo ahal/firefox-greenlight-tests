@@ -51,6 +51,10 @@ class Puppeteer(object):
     def menupanel(self):
         pass
 
+    @use_lib_as_property('preferences.Preferences')
+    def preferences(self):
+        pass
+
     @use_lib_as_property('tabs.Tabs')
     def tabstrip(self):
         pass
